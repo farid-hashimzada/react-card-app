@@ -4,13 +4,13 @@ import Navbar from "./navbar"
 
 
 
-const PageContainer = () => {
+const PageContainer = (props) => {
     return (
         <>
-        <Header />
-        <Navbar />
-        <main>salam</main>
-        <Footer />
+            <Header />
+            <Navbar />
+            <main className="container">{props.children}</main>
+            <Footer />
         </>
     )
 }

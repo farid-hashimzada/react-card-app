@@ -1,10 +1,13 @@
 const Footer = () => {
     return (
-    <footer>
-        <p>LOGO</p>
-    </footer>
+        <footer className="footer">
+            <div className="container">
+                <p>LOGO</p>
+            </div>
+
+        </footer>
     )
-   
+
 }
 
 export default Footer

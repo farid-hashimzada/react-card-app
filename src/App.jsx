@@ -1,11 +1,12 @@
-import PageContainer from "./components/pageContainer";
+import { Routing } from "./Routing/Routing";
+import './style.css'
 
 
 
 function App() {
   return (
     <>
-      <PageContainer />
+      <Routing/>
     </>
 
   )
