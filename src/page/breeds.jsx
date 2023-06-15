@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import PageContainer from "../components/pageContainer";
 
 function Breeds() {
     const [data, setData] = useState([])
@@ -11,6 +12,7 @@ function Breeds() {
     })
     return (
         <>
+                <PageContainer/>
             {
                 data.map(({ breed, country }) => {
                     return (
